@@ -1,7 +1,151 @@
 <!DOCTYPE html>
-<html>
-<body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
-</body>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Sameen Karim</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="author" content="Sameen Karim">
+		<meta name="description" content="I'm the founder and CEO of a company called Eventable. I handle business development during the day and hack on code at night. I blog occassionally in between. I studied Computer Science at Cal.">
+
+		<!-- facebook open graph tags -->
+		<meta property="og:site_name" content="Sameen Karim">
+		<meta property="og:url" content="http://sameenkarim.com/">
+		<meta property="og:title" content="Sameen Karim's Website">
+		<meta property="og:type" content="website">
+		<meta property="og:description" content="Founder and CEO at Eventable. Biz dev by day. Hacker by night. Comp Sci at Cal.">
+		<meta property="fb:app_id" content="208261485968350">
+
+		<!-- favicon icons -->
+		<link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+
+		<!-- styles -->
+		<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">
+		<link href="assets/css/base.css" rel="stylesheet" type="text/css">
+		<style type="text/css">
+			html, body {
+				width: 100%;
+				height: 100%;
+				margin: 0;
+				padding: 0;
+				border: none;
+			}
+			body {
+				background: none;
+			}
+			* {
+				-webkit-transition: all 0.25s ease-in-out;
+				-moz-transition: all 0.25s ease-in-out;
+				transition: all 0.25s ease-in-out;
+			}
+			.videoBG_wrapper {
+				top: 35% !important;
+				height: 50% !important;
+			}
+			content * {
+				color: #ffffff;
+				text-align: center;
+				font-family: 'Lato', Arial, sans-serif;
+				font-weight: 200;
+			}
+			h1 {
+				font-size: 50px;
+			}
+			p {
+				font-size: 16px;
+			}
+			p a:hover,
+			p a:focus,
+			p a:active {
+				color: #ffffff;
+			}
+			a.links {
+				font-size: 1.3rem;
+				color: rgba(255,255,255,0.9);
+				text-decoration: none;
+				background-color: rgba(0,0,0,0.3);
+				padding: 7.5px 12.5px;
+				border-radius: 20px;
+				border: 1px solid rgba(255,255,255,0.9);
+				-webkit-transition: all 0.2s ease;
+				-webkit-transition-delay: 0;
+				-moz-transition: all 0.2s ease 0;
+				-o-transition: all 0.2s ease 0;
+				transition: all 0.2s ease 0;
+				display: block;
+			}
+			a.links:hover,
+			a.links:focus,
+			a.links:active {
+				background-color: rgba(0,0,0,0.6);
+			}
+		</style>
+
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+			<script src="assets/js/html5shiv.js" type="text/javascript"></script>
+			<script src="assets/js/respond.js" type="text/javascript"></script>
+		<![endif]-->
+
+		<!-- analytics -->
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			ga('create', 'UA-38025604-2', 'skarim.github.io');
+			ga('send', 'pageview');
+		</script>
+	</head>
+
+	<body>
+		<content>
+			<div class="row">
+				<div class="col-md-6 col-md-offset-3">
+					<h1>Sameen Karim</h1>
+					<p>I'm the founder and CEO of a company called <a href="https://eventable.com" target="_blank">Eventable</a>. I handle business development during the day and hack on code at night. I <a href="https://medium.com/@sameenkarim" target="_blank">blog</a> occassionally in between.<br>
+					I <s>studied</s> dropped out of Computer Science at <a href="http://berkeley.edu" target="_blank">Cal</a>.</p>
+					<br>
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2">
+							<div class="row">
+								<div class="col-md-3">
+									<a href="https://twitter.com/sameenkarim" target="_blank" class="links">Twitter</a>
+								</div>
+								<div class="col-md-3">
+									<a href="https://www.linkedin.com/in/sameenkarim" target="_blank" class="links">LinkedIn</a>
+								</div>
+								<div class="col-md-3">
+									<a href="https://medium.com/@sameenkarim" target="_blank" class="links">Medium</a>
+								</div>
+								<div class="col-md-3">
+									<a href="https://sameenkarim.com" target="_blank" class="links">Tumblr</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</content>
+
+		<!-- javascript -->
+		<script src="assets/js/jquery.js" type="text/javascript"></script>
+		<script src="assets/js/videobg.js" type="text/javascript"></script>
+		<script type="text/javascript">
+			$('body').videoBG({
+				position	: 	'fixed',
+				mp4			: 	'assets/bg.mp4',
+				ogv			: 	'assets/bg.ogg',
+				webm		: 	'assets/bg.webm',
+				poster		: 	'http://d1hw6n3yxknhky.cloudfront.net/001065163_prevstill.jpeg',
+				autoplay	: 	true,
+				loop		:	true,
+				opacity		: 	0.7,
+				height		: 	'100%',
+				width		: 	'100%',
+				scale: false
+			});
+		</script>
+	</body>
 </html>
